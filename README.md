@@ -1,4 +1,4 @@
-![alt text](https://img.icons8.com/emoji/512/mango-emoji.png)MangoDB README
+![alt text](https://img.icons8.com/emoji/48/mango-emoji.png)MangoDB README
 
 Welcome to MangoDB!
 
