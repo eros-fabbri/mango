@@ -1,93 +1,93 @@
-# ![Logo](docs/leaf.svg) MongoDB README
+# ![Logo](docs/leaf.svg) MangoDB README
 
-Welcome to MongoDB!
+Welcome to MangoDB!
 
 ## Components
 
-  - `mongod` - The database server.
-  - `mongos` - Sharding router.
-  - `mongo`  - The database shell (uses interactive javascript).
+  - `mangod` - The database server.
+  - `mangos` - Sharding router.
+  - `mango`  - The database shell (uses interactive javascript).
 
 
-## Download MongoDB
-  - https://www.mongodb.com/try/download/community
-  - Using homebrew `brew tap mongodb/brew`
-  - Using docker image `docker pull mongo`
+## Download MangoDB
+  - https://www.mangodb.com/try/download/community
+  - Using homebrew `brew tap mangodb/brew`
+  - Using docker image `docker pull mango`
 
 
 ## Building
 
-  See [Building MongoDB](docs/building.md).
+  See [Building MangoDB](docs/building.md).
 
 ## Running
 
   For command line options invoke:
 
   ```bash
-  $ ./mongod --help
+  $ ./mangod --help
   ```
 
   To run a single server database:
 
   ```bash
     $ sudo mkdir -p /data/db
-    $ ./mongod
+    $ ./mangod
     $
-    $ # The mongo javascript shell connects to localhost and test database by default:
-    $ ./mongo
+    $ # The mango javascript shell connects to localhost and test database by default:
+    $ ./mango
     > help
   ```
 
 ## Installing Compass
 
-  You can install compass using the `install_compass` script packaged with MongoDB:
+  You can install compass using the `install_compass` script packaged with MangoDB:
 
   ```bash
     $ ./install_compass
   ```
 
-  This will download the appropriate MongoDB Compass package for your platform
+  This will download the appropriate MangoDB Compass package for your platform
   and install it.
 
 ## Drivers
 
   Client drivers for most programming languages are available at
-  https://docs.mongodb.com/manual/applications/drivers/. Use the shell
-  (`mongo`) for administrative tasks.
+  https://docs.mangodb.com/manual/applications/drivers/. Use the shell
+  (`mango`) for administrative tasks.
 
 ## Bug Reports
 
-  See https://github.com/mongodb/mongo/wiki/Submit-Bug-Reports.
+  See https://github.com/mangodb/mango/wiki/Submit-Bug-Reports.
 
 ## Packaging
 
   Packages are created dynamically by the [buildscripts/packager.py](buildscripts/packager.py) script.
   This will generate RPM and Debian packages.
 
-## Learn MongoDB 
+## Learn MangoDB 
 
-  Documentation - https://docs.mongodb.com/manual/
-  Developer Center -  https://www.mongodb.com/developer/
-  MongoDB University - https://learn.mongodb.com
+  Documentation - https://docs.mangodb.com/manual/
+  Developer Center -  https://www.mangodb.com/developer/
+  MangoDB University - https://learn.mangodb.com
 
-## Cloud Hosted MongoDB
+## Cloud Hosted MangoDB
 
-  https://www.mongodb.com/cloud/atlas
+  https://www.mangodb.com/cloud/atlas
 
 ## Forums
 
-  - https://community.mongodb.com
+  - https://community.mangodb.com
 
-      Technical questions about using MongoDB.
+      Technical questions about using MangoDB.
 
-  - https://community.mongodb.com/c/server-dev
+  - https://community.mangodb.com/c/server-dev
 
-      Technical questions about building and developing MongoDB.
+      Technical questions about building and developing MangoDB.
 
 
 ## LICENSE
 
-  MongoDB is free and the source is available. Versions released prior to
+  MangoDB is free and the source is available. Versions released prior to
   October 16, 2018 are published under the AGPL. All versions released after
   October 16, 2018, including patch fixes for prior versions, are published
   under the [Server Side Public License (SSPL) v1](LICENSE-Community.txt).
