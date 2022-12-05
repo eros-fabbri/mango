@@ -1,4 +1,4 @@
-# ![Logo](<a target="_blank" href="https://icons8.com/icon/y06NHH_kl00a/mango">Mango</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>) MangoDB README
+# ![Logo](https://icons8.com/icon/y06NHH_kl00a/mango) MangoDB README
 
 Welcome to MangoDB!
 
